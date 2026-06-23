@@ -44,10 +44,10 @@ export default function Contact() {
   });
 
   const contactInfoItems = [
-    { icon: MapPin, label: t("contact.address"), value: "One MediCare Plaza, Excellence Boulevard, Boston, MA 02115" },
+    { icon: MapPin, label: t("contact.address"), value: "One SarojaPlaza, Excellence Boulevard, Boston, MA 02115" },
     { icon: Phone, label: t("contact.tollFree"), value: "1-800-221-166\n1-800-890-1111" },
     { icon: Phone, label: t("contact.emergencyLabel"), value: "022-MEDIEMG", red: true },
-    { icon: Mail, label: t("contact.emailLabel"), value: "info@medicare-excellence.com" },
+    { icon: Mail, label: t("contact.emailLabel"), value: "info@Saroja-excellence.com" },
     { icon: Clock, label: t("contact.opdHours"), value: "Mon–Sat: 8:00 AM – 8:00 PM\nSun: 9:00 AM – 2:00 PM" }
   ];
 
@@ -160,7 +160,7 @@ export default function Contact() {
                   <div className="h-64 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl flex items-center justify-center">
                     <div className="text-center">
                       <MapPin size={40} className="text-primary/40 mx-auto mb-3" />
-                      <p className="font-semibold text-foreground">One MediCare Plaza</p>
+                      <p className="font-semibold text-foreground">One SarojaPlaza</p>
                       <p className="text-sm text-muted-foreground">Excellence Boulevard, Boston, MA 02115</p>
                     </div>
                   </div>

@@ -57,7 +57,7 @@ export default function Footer() {
                 <span className="text-accent font-bold text-xl">M+</span>
               </div>
               <div>
-                <h2 className="text-xl font-bold font-serif mb-1">MediCare Excellence Hospital</h2>
+                <h2 className="text-xl font-bold font-serif mb-1">Saroja Hospital</h2>
                 <p className="text-white/60 text-sm max-w-sm">{t("footer.tagline")}</p>
                 <div className="flex gap-3 mt-4">
                   {[
@@ -89,7 +89,7 @@ export default function Footer() {
                   <Mail size={16} className="text-accent" />
                   <span className="text-xs text-white/60 uppercase tracking-wider">{t("footer.email")}</span>
                 </div>
-                <p className="font-semibold text-sm break-all">info@medicare-excellence.com</p>
+                <p className="font-semibold text-sm break-all">info@Saroja-excellence.com</p>
               </div>
               <div className="bg-white/5 rounded-xl p-4">
                 <div className="flex items-center gap-2 mb-2">

@@ -5,7 +5,7 @@ export const testimonials = [
     age: 62,
     condition: "Heart Bypass Surgery",
     rating: 5,
-    review: "After my bypass surgery, I was terrified. But the cardiac team at MediCare was extraordinary — they explained every step, answered every question at midnight, and cheered me on through recovery. Today I am walking 5km every morning. I owe them my life.",
+    review: "After my bypass surgery, I was terrified. But the cardiac team at Sarojawas extraordinary — they explained every step, answered every question at midnight, and cheered me on through recovery. Today I am walking 5km every morning. I owe them my life.",
     location: "Boston, MA"
   },
   {
@@ -23,7 +23,7 @@ export const testimonials = [
     age: 38,
     condition: "Cancer Treatment",
     rating: 5,
-    review: "Being diagnosed with breast cancer at 38 was devastating. What I found at MediCare was not just medical excellence but genuine human warmth. Dr. Rostova's team held my hand — metaphorically and literally — through every chemotherapy session.",
+    review: "Being diagnosed with breast cancer at 38 was devastating. What I found at Sarojawas not just medical excellence but genuine human warmth. Dr. Rostova's team held my hand — metaphorically and literally — through every chemotherapy session.",
     location: "Chicago, IL"
   },
   {

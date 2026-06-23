@@ -136,7 +136,7 @@ export default function Navbar({ dark, toggleDark }: NavbarProps) {
                 <span className="text-white font-bold text-sm">M+</span>
               </div>
               <div className="hidden sm:block">
-                <div className="font-bold text-primary text-base leading-tight font-serif">MediCare Excellence</div>
+                <div className="font-bold text-primary text-base leading-tight font-serif">Saroja Hospital</div>
                 <div className="text-[10px] text-muted-foreground uppercase tracking-widest">Hospital</div>
               </div>
             </Link>

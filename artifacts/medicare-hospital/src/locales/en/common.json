@@ -14,7 +14,7 @@
     "searchPlaceholder": "Search doctors, departments, services..."
   },
   "home": {
-    "tagline": "MediCare Excellence Hospital",
+    "tagline": "Saroja Hospital",
     "heroWords": ["Excellence", "Accountability", "Compassion"],
     "heroSubtitles": [
       "World-class cardiac and vascular care with outcomes that redefine what's possible",
@@ -88,7 +88,7 @@
     "international": {
       "badge": "International Patients",
       "title": "Healing Across Borders",
-      "desc": "Patients from 80+ countries trust MediCare for complex procedures at a fraction of Western costs — with quality outcomes that match the world's finest hospitals.",
+      "desc": "Patients from 80+ countries trust Sarojafor complex procedures at a fraction of Western costs — with quality outcomes that match the world's finest hospitals.",
       "learnMore": "Learn More",
       "services": ["Visa Support", "Medical Travel", "Interpreter Services", "Accommodation"],
       "serviceDescs": [
@@ -102,7 +102,7 @@
       "label": "Accepted Insurance Partners"
     },
     "app": {
-      "badge": "MediCare App",
+      "badge": "SarojaApp",
       "title": "Your Health, At Your Fingertips",
       "desc": "Book appointments, view test results, consult with doctors via video, manage prescriptions, and access your complete health records — all from one secure app.",
       "appStore": "App Store",
@@ -125,7 +125,7 @@
   "about": {
     "badge": "About Us",
     "title": "A Decade of Excellence, A Legacy of Care",
-    "subtitle": "Founded in 2010, MediCare Excellence Hospital has grown from a 200-bed facility to one of the region's most trusted multispecialty hospitals, touching over 12 million lives.",
+    "subtitle": "Founded in 2010, Saroja Hospital has grown from a 200-bed facility to one of the region's most trusted multispecialty hospitals, touching over 12 million lives.",
     "story": {
       "badge": "Our Story",
       "title": "Built on a Belief That Every Life Matters"
@@ -340,7 +340,7 @@
   "international": {
     "badge": "International Patients",
     "title": "Healing Across Borders",
-    "subtitle": "Patients from 80+ countries trust MediCare for complex procedures at world-class quality. We handle every detail of your medical journey so you can focus entirely on your recovery.",
+    "subtitle": "Patients from 80+ countries trust Sarojafor complex procedures at world-class quality. We handle every detail of your medical journey so you can focus entirely on your recovery.",
     "startJourney": "Start Your Journey",
     "bookTeleconsult": "Book Teleconsultation",
     "services": {
@@ -398,7 +398,7 @@
     "email": "Email",
     "emergency": "Emergency",
     "available247": "24/7 Available",
-    "copyright": "© 2026 MediCare Excellence Hospital. All rights reserved.",
+    "copyright": "© 2026 Saroja Hospital. All rights reserved.",
     "terms": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "sitemap": "Sitemap"

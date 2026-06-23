@@ -20,22 +20,33 @@ import { blogs } from "@/data/blogs";
 import { events } from "@/data/events";
 import { faqs } from "@/data/faqs";
 import { stats } from "@/data/stats";
+import slide1 from "../../assets/images/slider1.jpg";
+import slide2 from "../../assets/images/slider1.jpg";
+import slide3 from "../../assets/images/slider1.jpg";
 
 const iconMap: Record<string, React.ElementType> = {
   Heart, Brain, Bone, Shield, Droplets, Baby, Users, Activity, Cpu, Ribbon, Stethoscope, Zap
 };
 
 function HeroSlider() {
+  const slides = [slide1, slide2, slide3];
   const { t } = useTranslation();
   const [current, setCurrent] = useState(0);
   const words: string[] = t("home.heroWords", { returnObjects: true }) as string[];
   const subtitles: string[] = t("home.heroSubtitles", { returnObjects: true }) as string[];
   const bgs = ["from-blue-900 via-primary to-blue-800", "from-teal-900 via-emerald-800 to-primary", "from-indigo-900 via-blue-800 to-primary"];
 
+  const SLIDE_COUNT = 3;
+
   useEffect(() => {
-    const timer = setInterval(() => setCurrent(c => (c + 1) % words.length), 5000);
+    const timer = setInterval(() => setCurrent(c => (c + 1) % SLIDE_COUNT), 5000);
     return () => clearInterval(timer);
-  }, [words.length]);
+  }, []);
+
+  // useEffect(() => {
+  //   const timer = setInterval(() => setCurrent(c => (c + 1) % words.length), 5000);
+  //   return () => clearInterval(timer);
+  // }, [words.length]);
 
   return (
     <div className="relative h-[85vh] min-h-[520px] overflow-hidden">
@@ -46,8 +57,14 @@ function HeroSlider() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8 }}
-          className={`absolute inset-0 bg-gradient-to-br ${bgs[current]}`}
-        />
+          className="absolute inset-0"
+        >
+          <img
+            src={slides[current]}
+            alt={`Slide ${current + 1}`}
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
       </AnimatePresence>
       <div className="absolute inset-0 bg-black/30" />
 
@@ -57,7 +74,7 @@ function HeroSlider() {
             key={current}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -30 }}
+            exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.6 }}
             className="max-w-4xl"
           >
@@ -676,7 +693,7 @@ function FAQSection() {
 function ContactPreview() {
   const { t } = useTranslation();
   const items = [
-    { icon: MapPin, label: t("home.contact.address"), value: "One MediCare Plaza, Excellence Boulevard, Boston, MA 02115" },
+    { icon: MapPin, label: t("home.contact.address"), value: "One SarojaPlaza, Excellence Boulevard, Boston, MA 02115" },
     { icon: Phone, label: t("home.contact.tollFree"), value: "1-800-221-166 / 1-800-890-1111" },
     { icon: Phone, label: t("home.contact.emergency"), value: "022-MEDIEMG (24/7)" },
     { icon: Clock, label: t("home.contact.opdHours"), value: "Mon–Sat: 8:00 AM – 8:00 PM | Sun: 9:00 AM – 2:00 PM" }
@@ -711,7 +728,7 @@ function ContactPreview() {
           <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl flex items-center justify-center h-80 border border-border">
             <div className="text-center">
               <MapPin size={48} className="text-primary/40 mx-auto mb-3" />
-              <p className="text-muted-foreground text-sm">One MediCare Plaza, Boston MA</p>
+              <p className="text-muted-foreground text-sm">One SarojaPlaza, Boston MA</p>
             </div>
           </div>
         </div>

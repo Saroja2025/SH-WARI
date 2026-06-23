@@ -1,8 +1,8 @@
 kind = "web"
 previewPath = "/"
-title = "MediCare Excellence Hospital"
+title = "Saroja Hospital"
 version = "1.0.0"
-id = "artifacts/medicare-hospital"
+id = "artifacts/Saroja-hospital"
 router = "path"
 
 [[integratedSkills]]
@@ -15,11 +15,11 @@ paths = [ "/" ]
 localPort = 23890
 
 [services.development]
-run = "pnpm --filter @workspace/medicare-hospital run dev"
+run = "pnpm --filter @workspace/Saroja-hospital run dev"
 
 [services.production]
-build = [ "pnpm", "--filter", "@workspace/medicare-hospital", "run", "build" ]
-publicDir = "artifacts/medicare-hospital/dist/public"
+build = [ "pnpm", "--filter", "@workspace/Saroja-hospital", "run", "build" ]
+publicDir = "artifacts/Saroja-hospital/dist/public"
 serve = "static"
 
 [[services.production.rewrites]]

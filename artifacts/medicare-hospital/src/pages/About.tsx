@@ -65,7 +65,7 @@ export default function About() {
               <Badge className="bg-primary/10 text-primary border-0 mb-4">{t("about.story.badge")}</Badge>
               <h2 className="text-4xl font-bold font-serif text-foreground mb-5">{t("about.story.title")}</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
-                <p>MediCare Excellence Hospital was founded on a simple but powerful belief: that world-class healthcare should be accessible. Since our doors opened in 2010, we have pursued that belief with relentless dedication.</p>
+                <p>Saroja Hospital was founded on a simple but powerful belief: that world-class healthcare should be accessible. Since our doors opened in 2010, we have pursued that belief with relentless dedication.</p>
                 <p>Today, with over 1,500 specialist doctors, 50+ medical departments, and JCI accreditation — one of healthcare's highest international standards — we serve patients from across the country and from 80+ nations worldwide.</p>
               </div>
             </div>

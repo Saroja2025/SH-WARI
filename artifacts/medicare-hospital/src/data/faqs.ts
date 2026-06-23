@@ -1,11 +1,11 @@
 export const faqs = [
   {
-    question: "How do I book an appointment at MediCare Excellence Hospital?",
-    answer: "You can book an appointment through our website's appointment booking section, by calling our toll-free number 1-800-MEDICARE, or by visiting the hospital directly. We offer online, phone, and walk-in appointment options."
+    question: "How do I book an appointment at Saroja Hospital?",
+    answer: "You can book an appointment through our website's appointment booking section, by calling our toll-free number 1-800-Saroja, or by visiting the hospital directly. We offer online, phone, and walk-in appointment options."
   },
   {
     question: "What insurance plans does the hospital accept?",
-    answer: "We accept all major insurance plans including Aetna, Blue Cross Blue Shield, Cigna, United Healthcare, Medicare, Medicaid, and most government and private health schemes. Please contact our billing department to verify your specific coverage."
+    answer: "We accept all major insurance plans including Aetna, Blue Cross Blue Shield, Cigna, United Healthcare, Saroja, Medicaid, and most government and private health schemes. Please contact our billing department to verify your specific coverage."
   },
   {
     question: "What should I bring for my first appointment?",
@@ -16,8 +16,8 @@ export const faqs = [
     answer: "Yes. Our Emergency Department operates 24 hours a day, 7 days a week, 365 days a year. Our emergency number is 022-MEDIEMG. We have dedicated trauma, cardiac, neurological, and pediatric emergency teams always on standby."
   },
   {
-    question: "Can international patients receive treatment at MediCare?",
-    answer: "Absolutely. We have a dedicated International Patient Services department that assists with medical visa invitation letters, airport transfers, accommodation, translation services, and travel logistics. Please contact us at international@medicare-excellence.com."
+    question: "Can international patients receive treatment at Saroja?",
+    answer: "Absolutely. We have a dedicated International Patient Services department that assists with medical visa invitation letters, airport transfers, accommodation, translation services, and travel logistics. Please contact us at international@Saroja-excellence.com."
   },
   {
     question: "How can I access my medical records?",
