@@ -16,18 +16,18 @@ export default defineConfig({
     runtimeErrorOverlay(),
 
     ...(process.env.NODE_ENV !== "production" &&
-    process.env.REPL_ID !== undefined
+      process.env.REPL_ID !== undefined
       ? [
-          await import("@replit/vite-plugin-cartographer").then((m) =>
-            m.cartographer({
-              root: path.resolve(import.meta.dirname, ".."),
-            }),
-          ),
+        await import("@replit/vite-plugin-cartographer").then((m) =>
+          m.cartographer({
+            root: path.resolve(import.meta.dirname, ".."),
+          }),
+        ),
 
-          await import("@replit/vite-plugin-dev-banner").then((m) =>
-            m.devBanner(),
-          ),
-        ]
+        await import("@replit/vite-plugin-dev-banner").then((m) =>
+          m.devBanner(),
+        ),
+      ]
       : []),
   ],
 
@@ -45,13 +45,18 @@ export default defineConfig({
   },
 
   root: path.resolve(import.meta.dirname),
-
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: "dist",
     emptyOutDir: true,
     chunkSizeWarningLimit: 1000,
     sourcemap: false,
   },
+  // build: {
+  //   outDir: path.resolve(import.meta.dirname, "dist/public"),
+  //   emptyOutDir: true,
+  //   chunkSizeWarningLimit: 1000,
+  //   sourcemap: false,
+  // },
 
   server: {
     port,
