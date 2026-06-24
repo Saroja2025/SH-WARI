@@ -15,11 +15,15 @@
   },
   "home": {
     "tagline": "Saroja Hospital",
-    "heroWords": ["Excellence", "Accountability", "Compassion"],
-    "heroSubtitles": [
-      "World-class cardiac and vascular care with outcomes that redefine what's possible",
-      "Transparent, ethical care — every decision grounded in evidence and respect for life",
-      "Beyond medicine — we are partners in your healing journey, every step of the way"
+    "heroWords": [
+      "Endoscopy",
+      "Colonoscopy",
+      "General Surgery"
+    ],
+     "heroSubtitles": [
+      "Advanced Endoscopy and Colonoscopy services with accurate diagnosis and expert care.",
+      "Comprehensive treatment for Piles, Fissure, Hernia, Gall Bladder Stone and Appendix disorders.",
+      "Trusted care for Diabetes, Thyroid, Liver Disorders, TB, UTI, Allergy and Asthma."
     ],
     "exploreServices": "Explore Services",
     "findDoctor": "Find a Doctor",
@@ -33,12 +37,12 @@
       "patientPortal": "Patient Portal",
       "portalDesc": "Records & appointments"
     },
-    "services": {
-      "title": "Comprehensive Specialties Under One Roof",
-      "badge": "Our Services",
-      "subtitle": "From routine care to the most complex procedures — our 50+ specialties serve every dimension of your health.",
-      "viewAll": "View All Departments",
-      "learnMore": "Learn more"
+     "services": {
+      "title": "Our Specialized Medical Services",
+      "badge": "Services",
+      "subtitle": "Comprehensive diagnosis, treatment and surgical care under one roof.",
+      "viewAll": "View All Services",
+      "learnMore": "Learn More"
     },
     "centres": {
       "badge": "Centres of Excellence",
@@ -46,21 +50,29 @@
       "explore": "Explore"
     },
     "doctors": {
-      "badge": "Our Doctors",
-      "title": "Meet Our Specialists",
-      "viewAll": "View All Doctors",
-      "viewProfile": "View Profile",
-      "bookNow": "Book Now",
-      "allDepartments": "All Departments"
-    },
+    "title": "Meet Our Specialists",
+    "subtitle": "Experienced doctors dedicated to providing quality healthcare and personalized treatment."
+  },
     "whyUs": {
       "badge": "Why Choose Us",
-      "title": "Excellence in Every Dimension",
+      "title": "Trusted Healthcare for Every Family",
       "features": [
-        { "title": "Expert Doctors", "desc": "1,500+ super-specialists with global training and decades of combined experience across 50+ disciplines." },
-        { "title": "Advanced Technology", "desc": "da Vinci robotic systems, 3T MRI, hybrid cath labs, CyberKnife — among the first in the region." },
-        { "title": "Patient-Centric Care", "desc": "Multidisciplinary tumor boards, personalized care plans, and a dedicated patient advocate for every admission." },
-        { "title": "World-Class Infrastructure", "desc": "1,000-bed hospital, 250-bed ICU, 30+ operating theatres, and HEPA-filtered isolation suites." }
+        {
+          "title": "Experienced Specialists",
+          "desc": "Expert consultation and treatment by qualified specialists."
+        },
+        {
+          "title": "Advanced Diagnostics",
+          "desc": "Modern Endoscopy, Colonoscopy and diagnostic facilities."
+        },
+        {
+          "title": "Patient-Centered Care",
+          "desc": "Personalized treatment plans focused on patient wellbeing."
+        },
+        {
+          "title": "Comprehensive Treatment",
+          "desc": "Medical and surgical care for digestive, metabolic and chronic diseases."
+        }
       ]
     },
     "stats": {
@@ -124,9 +136,9 @@
   },
   "about": {
     "badge": "About Us",
-    "title": "A Decade of Excellence, A Legacy of Care",
-    "subtitle": "Founded in 2010, Saroja Hospital has grown from a 200-bed facility to one of the region's most trusted multispecialty hospitals, touching over 12 million lives.",
-    "story": {
+    "title": "Compassionate Care. Trusted Expertise.",
+    "subtitle": "Saroja Hospital is committed to providing quality healthcare with a focus on gastroenterology, endoscopy, colonoscopy, general surgery and internal medicine.",
+      "story": {
       "badge": "Our Story",
       "title": "Built on a Belief That Every Life Matters"
     },
