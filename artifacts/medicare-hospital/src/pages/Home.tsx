@@ -20,7 +20,7 @@ import { blogs } from "@/data/blogs";
 import { events } from "@/data/events";
 import { faqs } from "@/data/faqs";
 import { stats } from "@/data/stats";
-import slide from "../../assets/images/slider1.jpg";
+import slide from "../../assets/images/slider.jpg";
 import slide2 from "../../assets/images/slider1.jpg";
 import slide3 from "../../assets/images/slider1.jpg";
 
