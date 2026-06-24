@@ -46,10 +46,9 @@ export default defineConfig({
 
   root: path.resolve(import.meta.dirname),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist"),
-    emptyOutDir: true,
-    chunkSizeWarningLimit: 1000,
-    sourcemap: false,
+   outDir: "dist",
+  emptyOutDir: true,
+  sourcemap: false,
   },
   // build: {
   //   outDir: path.resolve(import.meta.dirname, "dist/public"),
