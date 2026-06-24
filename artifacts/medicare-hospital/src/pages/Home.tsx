@@ -19,24 +19,22 @@ import { testimonials } from "@/data/testimonials";
 import { blogs } from "@/data/blogs";
 import { events } from "@/data/events";
 import { faqs } from "@/data/faqs";
-import { stats } from "@/data/stats";
-import slide from "../../assets/images/slider.jpg";
-import slide2 from "../../assets/images/slider1.jpg";
-import slide3 from "../../assets/images/slider1.jpg";
+import { stats } from "@/data/stats"; 
+import slide1 from "../../assets/images/slider1.jpg"; 
 
 const iconMap: Record<string, React.ElementType> = {
   Heart, Brain, Bone, Shield, Droplets, Baby, Users, Activity, Cpu, Ribbon, Stethoscope, Zap
 };
 
 function HeroSlider() {
-  const slides = [slide, slide2, slide3];
+  const slides = [slide1];
   const { t } = useTranslation();
   const [current, setCurrent] = useState(0);
   const words: string[] = t("home.heroWords", { returnObjects: true }) as string[];
   const subtitles: string[] = t("home.heroSubtitles", { returnObjects: true }) as string[];
   const bgs = ["from-blue-900 via-primary to-blue-800", "from-teal-900 via-emerald-800 to-primary", "from-indigo-900 via-blue-800 to-primary"];
 
-  const SLIDE_COUNT = 3;
+  const SLIDE_COUNT = 1;
 
   useEffect(() => {
     const timer = setInterval(() => setCurrent(c => (c + 1) % SLIDE_COUNT), 5000);
