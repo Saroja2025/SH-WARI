@@ -1,136 +1,316 @@
 export const departments = [
   {
-    id: "cardiology",
-    name: "Cardiology",
-    icon: "Heart",
-    description: "Comprehensive cardiac care from diagnosis to complex interventions and cardiac surgery.",
-    treatments: ["Angioplasty", "Bypass Surgery", "Pacemaker Implantation", "Heart Failure Management", "Arrhythmia Treatment", "Structural Heart Disease"],
-    procedures: ["Echocardiography", "Cardiac CT & MRI", "Stress Testing", "Holter Monitoring", "Cardiac Catheterization", "Electrophysiology Study"],
-    technology: ["Hybrid Cath Lab", "3D Echocardiography", "Robotic-Assisted Surgery", "TAVI System"],
-    faqs: [
-      { question: "When should I see a cardiologist?", answer: "If you experience chest pain, shortness of breath, irregular heartbeat, or have risk factors like hypertension or diabetes, a cardiologist consultation is recommended." },
-      { question: "What is an ECG?", answer: "An electrocardiogram (ECG) records the electrical signals in your heart to detect various heart conditions." }
-    ]
-  },
-  {
-    id: "oncology",
-    name: "Oncology",
-    icon: "Ribbon",
-    description: "Integrated cancer care combining surgery, radiation, medical oncology and cutting-edge immunotherapy.",
-    treatments: ["Chemotherapy", "Immunotherapy", "Targeted Therapy", "Hormone Therapy", "Bone Marrow Transplant", "Palliative Care"],
-    procedures: ["PET Scan", "Biopsy", "Radiation Therapy", "Surgical Oncology", "HIFU", "Cryotherapy"],
-    technology: ["Linear Accelerator (LINAC)", "CyberKnife", "PET-CT Scanner", "Infusion Therapy Suite"],
-    faqs: [
-      { question: "What is the first step after a cancer diagnosis?", answer: "Our multidisciplinary tumor board reviews every case to create a personalized treatment plan before any therapy begins." },
-      { question: "Is chemotherapy always necessary?", answer: "Not always. Treatment depends on cancer type, stage, and individual factors. Many cancers are now treated with targeted therapies." }
-    ]
-  },
-  {
-    id: "neurology",
-    name: "Neurology",
-    icon: "Brain",
-    description: "Advanced neurological care for brain, spine, and peripheral nervous system disorders.",
-    treatments: ["Stroke Management", "Epilepsy Treatment", "Parkinson's Disease", "Multiple Sclerosis", "Dementia Care", "Headache Clinic"],
-    procedures: ["MRI & CT Neuroimaging", "EEG", "Nerve Conduction Study", "Lumbar Puncture", "Deep Brain Stimulation"],
-    technology: ["3T MRI Scanner", "Intraoperative Neuromonitoring", "Gamma Knife", "Neuro-Navigation System"],
-    faqs: [
-      { question: "What are stroke warning signs?", answer: "Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency. Immediate treatment is critical." }
-    ]
-  },
-  {
-    id: "orthopedics",
-    name: "Orthopedics",
-    icon: "Bone",
-    description: "Specialized care for bones, joints, muscles, and the entire musculoskeletal system.",
-    treatments: ["Joint Replacement", "Spine Surgery", "Sports Injury", "Fracture Management", "Arthritis Treatment", "Pediatric Orthopedics"],
-    procedures: ["Arthroscopy", "Hip Replacement", "Knee Replacement", "Spinal Fusion", "Limb Lengthening"],
-    technology: ["Robotic Joint Replacement", "Navigation-Assisted Surgery", "Computer-Aided Design Implants"],
-    faqs: [
-      { question: "What is robotic knee replacement?", answer: "Robotic assistance allows for more precise implant placement, resulting in better outcomes and faster recovery times." }
-    ]
-  },
-  {
     id: "gastroenterology",
-    name: "Gastroenterology",
+    name: "Gastroenterology & Digestive Care",
     icon: "Stethoscope",
-    description: "Expert diagnosis and treatment of digestive system disorders from esophagus to colon.",
-    treatments: ["GERD Treatment", "IBD Management", "Liver Disease", "Pancreatic Disorders", "Colorectal Conditions", "Hepatology"],
-    procedures: ["Colonoscopy", "Upper Endoscopy", "ERCP", "Capsule Endoscopy", "Liver Biopsy", "pH Monitoring"],
-    technology: ["HD Video Endoscopy", "Confocal Laser Endomicroscopy", "FibroScan"],
+    description:
+      "Consultation, evaluation, and care for stomach, digestive, and gastrointestinal conditions at Saroja Hospital, Prayagraj.",
+    treatments: [
+      "Acid Reflux & GERD",
+      "Constipation",
+      "Stomach Pain",
+      "Digestive Problems",
+      "Gastritis",
+      "Liver Conditions",
+    ],
+    procedures: [
+      "Upper GI Endoscopy",
+      "Colonoscopy",
+      "Digestive Health Evaluation",
+      "Gastrointestinal Consultation",
+    ],
+    technology: [
+      "Endoscopy Services",
+      "Colonoscopy Services",
+      "Diagnostic Evaluation",
+    ],
     faqs: [
-      { question: "How often should I get a colonoscopy?", answer: "Adults 45+ with average risk should get a colonoscopy every 10 years. High-risk individuals may need more frequent screening." }
-    ]
+      {
+        question: "When should I consult a doctor for stomach problems?",
+        answer:
+          "Persistent stomach pain, frequent acidity, difficulty swallowing, ongoing constipation, vomiting, or changes in bowel habits should be medically evaluated.",
+      },
+      {
+        question: "Is endoscopy available at Saroja Hospital?",
+        answer:
+          "Yes. Endoscopy services are available for suitable digestive and gastrointestinal evaluations following medical consultation.",
+      },
+    ],
   },
+
   {
-    id: "nephrology",
-    name: "Nephrology",
-    icon: "Droplets",
-    description: "Comprehensive kidney care including dialysis, transplant evaluation, and chronic kidney disease management.",
-    treatments: ["CKD Management", "Dialysis", "Kidney Transplant", "Hypertension Management", "Glomerulonephritis"],
-    procedures: ["Kidney Biopsy", "Hemodialysis", "Peritoneal Dialysis", "CAPD", "Renal Ultrasound"],
-    technology: ["High-Flux Dialysis Machines", "Online Hemodiafiltration", "APD System"],
+    id: "general-surgery",
+    name: "General & Laparoscopic Surgery",
+    icon: "Activity",
+    description:
+      "General and laparoscopic surgical care for suitable medical conditions following consultation and clinical evaluation.",
+    treatments: [
+      "Gallbladder Stones",
+      "Hernia",
+      "Appendix Conditions",
+      "Piles",
+      "Fissure",
+      "Fistula",
+    ],
+    procedures: [
+      "Laparoscopic Surgery",
+      "General Surgery",
+      "Hernia Surgery",
+      "Gallbladder Surgery",
+      "Appendix Surgery",
+      "Anorectal Procedures",
+    ],
+    technology: [
+      "Laparoscopic Surgical Care",
+      "Minimally Invasive Approach",
+      "Surgical Evaluation",
+    ],
     faqs: [
-      { question: "What are signs of kidney disease?", answer: "Watch for swelling in legs/ankles, fatigue, decreased urination, foamy urine, and persistent itching." }
-    ]
+      {
+        question: "What is laparoscopic surgery?",
+        answer:
+          "Laparoscopic surgery is a minimally invasive surgical approach that uses small incisions for suitable procedures. The recommended surgical method depends on individual medical evaluation.",
+      },
+      {
+        question: "Is surgery required for every gallbladder stone?",
+        answer:
+          "Not every patient requires the same treatment. A doctor evaluates symptoms, medical history, and test results before recommending treatment or surgery.",
+      },
+    ],
   },
+
   {
-    id: "urology",
-    name: "Urology",
+    id: "proctology",
+    name: "Piles, Fissure & Fistula Care",
     icon: "Shield",
-    description: "Advanced urological care using minimally invasive and robotic surgical techniques.",
-    treatments: ["Kidney Stone Treatment", "Prostate Conditions", "Bladder Cancer", "Urinary Incontinence", "Male Infertility", "Pediatric Urology"],
-    procedures: ["RIRS", "PCNL", "Robotic Prostatectomy", "TURP", "Cystoscopy", "Vasectomy"],
-    technology: ["da Vinci Surgical System", "Holmium Laser", "Urodynamics Suite"],
+    description:
+      "Consultation and treatment for common anorectal conditions including piles, fissure, and fistula.",
+    treatments: [
+      "Piles",
+      "Anal Fissure",
+      "Anal Fistula",
+      "Rectal Pain",
+      "Bleeding During Bowel Movements",
+      "Chronic Constipation",
+    ],
+    procedures: [
+      "Clinical Evaluation",
+      "Anorectal Examination",
+      "Medical Management",
+      "Surgical Treatment",
+    ],
+    technology: [
+      "Patient Evaluation",
+      "Treatment Planning",
+      "Surgical Care",
+    ],
     faqs: [
-      { question: "What is robotic prostate surgery?", answer: "Robotic surgery offers smaller incisions, less blood loss, and faster recovery compared to traditional open surgery." }
-    ]
+      {
+        question: "What is the difference between piles and fissure?",
+        answer:
+          "Piles are swollen blood vessels in or around the anus, while an anal fissure is a small tear in the anal lining. A medical examination helps confirm the condition.",
+      },
+      {
+        question: "Does every piles patient need surgery?",
+        answer:
+          "No. Treatment depends on the type and severity of the condition. Medical, lifestyle, or surgical treatment may be recommended after evaluation.",
+      },
+    ],
   },
+
   {
-    id: "pediatrics",
-    name: "Pediatrics",
-    icon: "Baby",
-    description: "Specialized healthcare for infants, children, and adolescents in a child-friendly environment.",
-    treatments: ["Neonatology", "Pediatric Cardiology", "Pediatric Neurology", "Growth Disorders", "Childhood Cancers", "Immunization"],
-    procedures: ["Well-Baby Checkups", "Developmental Assessment", "Pediatric Endoscopy", "NICU Care"],
-    technology: ["Level III NICU", "Pediatric Ventilators", "Phototherapy Units", "Infusion Pumps"],
+    id: "stone-care",
+    name: "Stone & Urinary Care",
+    icon: "Droplets",
+    description:
+      "Medical consultation and evaluation for stone-related symptoms and common urinary conditions.",
+    treatments: [
+      "Kidney Stones",
+      "Urinary Stones",
+      "Urinary Tract Infection",
+      "Painful Urination",
+      "Frequent Urination",
+      "Urinary Symptoms",
+    ],
+    procedures: [
+      "Clinical Consultation",
+      "Stone Evaluation",
+      "Urinary Health Assessment",
+      "Treatment Planning",
+    ],
+    technology: [
+      "Diagnostic Evaluation",
+      "Medical Management",
+      "Patient Monitoring",
+    ],
     faqs: [
-      { question: "At what age should I start bringing my child for regular checkups?", answer: "Well-baby visits are recommended at 1, 2, 4, 6, 9, 12, 15, 18, 24, and 30 months, then annually." }
-    ]
+      {
+        question: "What are common symptoms of kidney stones?",
+        answer:
+          "Stone-related symptoms may include severe side or back pain, nausea, painful urination, or blood in the urine. Medical evaluation is recommended for persistent or severe symptoms.",
+      },
+      {
+        question: "Can drinking water help prevent kidney stones?",
+        answer:
+          "Adequate hydration may help reduce the risk of some types of stones. Individual prevention advice depends on the type of stone and medical history.",
+      },
+    ],
   },
+
   {
-    id: "dermatology",
-    name: "Dermatology",
-    icon: "Sun",
-    description: "Medical and cosmetic dermatology for skin, hair, and nail conditions.",
-    treatments: ["Acne Treatment", "Psoriasis", "Eczema", "Skin Cancer", "Vitiligo", "Hair Loss"],
-    procedures: ["Skin Biopsy", "PUVA Therapy", "Laser Treatment", "Chemical Peel", "Botox & Fillers"],
-    technology: ["Q-Switched Laser", "Excimer Laser", "Dermatoscopy", "Wood's Lamp"],
+    id: "general-medicine",
+    name: "General Medicine",
+    icon: "Heart",
+    description:
+      "Patient-focused medical consultation and management for common and long-term health conditions.",
+    treatments: [
+      "Blood Pressure Management",
+      "Thyroid Disorders",
+      "Diabetes Management",
+      "General Medical Conditions",
+      "Fever & Weakness",
+      "Long-Term Health Management",
+    ],
+    procedures: [
+      "Medical Consultation",
+      "Health Evaluation",
+      "Blood Pressure Monitoring",
+      "Diabetes Follow-Up",
+      "Thyroid Evaluation",
+    ],
+    technology: [
+      "Clinical Assessment",
+      "Patient Monitoring",
+      "Medical Management",
+    ],
     faqs: [
-      { question: "When should I see a dermatologist for a mole?", answer: "Use the ABCDE rule: Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolution/change. Any concern warrants evaluation." }
-    ]
+      {
+        question: "How often should blood pressure be checked?",
+        answer:
+          "The frequency of blood pressure monitoring depends on your readings, age, medical history, and doctor's advice. Patients with hypertension may require regular monitoring.",
+      },
+      {
+        question: "Why is regular diabetes monitoring important?",
+        answer:
+          "Regular monitoring helps assess blood sugar control and supports appropriate changes in medicines, diet, and lifestyle under medical guidance.",
+      },
+    ],
   },
+
   {
-    id: "ent",
-    name: "ENT",
-    icon: "Ear",
-    description: "Expert care for ear, nose, throat, head, and neck conditions for all ages.",
-    treatments: ["Hearing Loss", "Sinusitis", "Tonsillitis", "Sleep Apnea", "Head & Neck Cancer", "Vertigo"],
-    procedures: ["Tonsillectomy", "Septoplasty", "FESS", "Cochlear Implant", "Myringotomy", "Laryngoscopy"],
-    technology: ["Powered Instrumentation", "Nerve Monitoring", "Navigation System", "Robotic Surgery"],
+    id: "liver-care",
+    name: "Liver Care",
+    icon: "Activity",
+    description:
+      "Medical consultation and patient-focused management for liver-related symptoms and conditions.",
+    treatments: [
+      "Fatty Liver",
+      "Liver Function Concerns",
+      "Jaundice Evaluation",
+      "Digestive Symptoms",
+      "Liver Health Management",
+    ],
+    procedures: [
+      "Medical Consultation",
+      "Liver Health Evaluation",
+      "Report Review",
+      "Follow-Up Care",
+    ],
+    technology: [
+      "Clinical Evaluation",
+      "Medical Management",
+      "Patient Monitoring",
+    ],
     faqs: [
-      { question: "What causes chronic sinusitis?", answer: "Chronic sinusitis may be caused by nasal polyps, deviated septum, allergies, or infections. Medical management is first-line; surgery may be needed." }
-    ]
+      {
+        question: "What are common signs of liver problems?",
+        answer:
+          "Symptoms may include jaundice, abdominal discomfort, unusual fatigue, nausea, or changes in appetite. These symptoms can have different causes and should be medically evaluated.",
+      },
+      {
+        question: "Can fatty liver be managed?",
+        answer:
+          "Management depends on the cause and individual health condition. Medical guidance, weight management, diet, physical activity, and regular monitoring may be recommended.",
+      },
+    ],
   },
+
   {
-    id: "pulmonology",
-    name: "Pulmonology",
+    id: "respiratory-care",
+    name: "TB, Allergy & Asthma Care",
     icon: "Wind",
-    description: "Comprehensive respiratory care for acute and chronic lung diseases.",
-    treatments: ["Asthma Management", "COPD", "Interstitial Lung Disease", "Sleep Disorders", "Lung Cancer", "Pleural Disease"],
-    procedures: ["Bronchoscopy", "EBUS", "Pulmonary Function Test", "Sleep Study", "Thoracentesis", "Pleuroscopy"],
-    technology: ["Endobronchial Ultrasound", "Navigational Bronchoscopy", "High-Resolution CT", "BiPAP/CPAP"],
+    description:
+      "Medical consultation and management for tuberculosis, allergy, asthma, and common respiratory symptoms.",
+    treatments: [
+      "Tuberculosis Care",
+      "Asthma Management",
+      "Respiratory Allergy",
+      "Persistent Cough",
+      "Breathing Problems",
+      "Allergy Symptoms",
+    ],
+    procedures: [
+      "Respiratory Consultation",
+      "Clinical Evaluation",
+      "Treatment Follow-Up",
+      "Symptom Assessment",
+    ],
+    technology: [
+      "Clinical Assessment",
+      "Medical Management",
+      "Patient Follow-Up",
+    ],
     faqs: [
-      { question: "What is COPD?", answer: "Chronic Obstructive Pulmonary Disease is a progressive lung disease causing airflow obstruction. It's primarily caused by smoking but can also result from pollution exposure." }
-    ]
-  }
+      {
+        question: "When should a persistent cough be evaluated?",
+        answer:
+          "A cough that continues for several weeks, or occurs with fever, weight loss, breathing difficulty, or blood in sputum, should be medically evaluated.",
+      },
+      {
+        question: "Can asthma symptoms be managed?",
+        answer:
+          "Asthma symptoms can often be managed with appropriate medical treatment, trigger awareness, and regular follow-up based on a doctor's advice.",
+      },
+    ],
+  },
+
+  {
+    id: "diabetes-thyroid",
+    name: "Diabetes & Thyroid Care",
+    icon: "HeartPulse",
+    description:
+      "Medical consultation and long-term management support for diabetes and thyroid-related conditions.",
+    treatments: [
+      "Type 2 Diabetes",
+      "Blood Sugar Management",
+      "Hypothyroidism",
+      "Hyperthyroidism",
+      "Thyroid Symptoms",
+      "Lifestyle Guidance",
+    ],
+    procedures: [
+      "Diabetes Consultation",
+      "Blood Sugar Review",
+      "Thyroid Evaluation",
+      "Medical Follow-Up",
+      "Treatment Monitoring",
+    ],
+    technology: [
+      "Clinical Monitoring",
+      "Report Evaluation",
+      "Long-Term Care Planning",
+    ],
+    faqs: [
+      {
+        question: "What are common symptoms of diabetes?",
+        answer:
+          "Common symptoms may include increased thirst, frequent urination, unexplained weight changes, tiredness, or slow healing. A medical test is required for diagnosis.",
+      },
+      {
+        question: "What symptoms may occur with thyroid disorders?",
+        answer:
+          "Thyroid disorders may be associated with fatigue, weight changes, changes in heart rate, temperature sensitivity, or mood changes. Medical evaluation and thyroid testing may be recommended.",
+      },
+    ],
+  },
 ];

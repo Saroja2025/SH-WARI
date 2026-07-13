@@ -60,15 +60,15 @@ export default function Navbar({ dark, toggleDark }: NavbarProps) {
         { label: "Wellness Programs", href: "#" }
       ]
     },
-    {
-      label: t("nav.researchAcademics"),
-      href: "/research",
-      mega: [
-        { label: "Research Programs", href: "/research" },
-        { label: "Clinical Trials", href: "/research" },
-        { label: "Fellowships", href: "/research" }
-      ]
-    },
+    // {
+    //   label: t("nav.researchAcademics"),
+    //   href: "/research",
+    //   mega: [
+    //     { label: "Research Programs", href: "/research" },
+    //     { label: "Clinical Trials", href: "/research" },
+    //     { label: "Fellowships", href: "/research" }
+    //   ]
+    // },
     { label: t("nav.contactUs"), href: "/contact" }
   ];
 
